@@ -30,38 +30,6 @@ local B = string.Replace
 local C = surface.GetTextSize
 local D = table.remove
 ​
-for E = 65, 90 do
-    d(c, g(E))
-end
-​
-for E = 97, 122 do
-    d(c, g(E))
-end
-​
-local function F()
-    local G = ""
-​
-    for H = 1, f(20) do
-        G = G .. c[f(1, #c)]
-    end
-​
-    return G
-end
-​
-if not username then
-    for E = 0, 24 do
-        local I = 10 + E
-​
-        surface.CreateFont("hack_font_" .. I, {
-            font = "Roboto",
-            size = I
-        })
-    end
-​
-    username = 'Loser'
-    password = ''
-end
-​
 local J = MsgC
 MsgC = function() end
 local K = false
